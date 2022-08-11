@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/85297bb956.js" crossorigin="anonymous"></script>
+    <title>IG feed bootstrap</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://www.kindpng.com/picc/m/276-2764257_instagram-icon-instagram-logo-small-size-hd-png.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                    Instagram
+                </a>
+                <div class="right d-flex">
+                    <form class="d-flex pe-2">
+                        <button class="btn btn-success pe-1px" type="submit" data-bs-toggle="modal" data-bs-target="#modalwindow">Create a new post</button>
+                         <!--Modal, no tocar.-->
+
+                         <div class="modal fade" id="modalwindow" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalwindowlabel" aria-hidden="true">
+                         <div class="modal-dialog">
+                         <div class="modal-content p-1">
+                         <textarea class="form-control m-1"> </textarea>
+                         <div class="modal-body">
+                         <button class="btn btn-outline-secondary"><i class="fa-solid fa-camera"></i></button>
+                         <button class="btn btn-outline-secondary"><i class="fa-solid fa-location-dot"></i> </button>
+       
+                       </div>
+
+                        <div class="modal-footer">
+                           <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                           <button type="button" class="btn btn-success">Publish</button>
+                           </div>
+       </div>
+  </div>
+</div>
+                    </form>
+                
+                   
+                    <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-gear ps-2" ></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenu2">
+                            <li><button class="dropdown-item" type="button">Action</button></li>
+                            <li><button class="dropdown-item" type="button">Another action</button></li>
+                            <li><button class="dropdown-item" type="button">Something else here</button></li>
+                            <li> 
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><button class="dropdown-item" type="button">Log Out</button></li>
+                          </ul>
+                      </div>
+                </div>
+            </div>
+
+        
+        </nav>
+
+        
+
+
+
+
+
+<!-- nav tabs-->
+<ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="pills-grid" data-bs-toggle="pill" data-bs-target="#pills-left" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fa-solid fa-table-cells"></i></button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-col" data-bs-toggle="pill" data-bs-target="#pills-right" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fa-solid fa-square"></i></button>
+  </li>
+ 
+</ul>
+<div class="tab-content" id="pills-tabContent">
+
+  <!--GRID-->
+  <div class="tab-pane fade show active" id="pills-left" role="tabpanel" aria-labelledby="pills-grid-tab">
+
+    <div class="row mb-2 ms-1 me-1 d-flex w-100" id="grid">
+      <div class="col-4 ps-2 pb-2 pe-1">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM78HLJsIyANIUF1sIBJeqdMB7rgZIrM0AHBRzQKoU1lvYmzXmbDblccDi5szQRJrszOg&usqp=CAU" 
+          class="card-img-top h-100" alt="..."> 
+      </div>
+
+      <div class="col-4 ps-2 pb-2 pe-1">
+          <img src="https://www.petdarling.com/wp-content/uploads/2020/11/razas-de-perros.jpg" 
+          class="card-img-top h-100" alt="..."> 
+      </div>
+
+      <div class="col-4 ps-2 pb-2 pe-1">
+          <img src="https://i.blogs.es/808765/dpoty-puppy-2nd--c--tracy-kirby-the-kennel-club-2/1366_2000.jpg" 
+          class="card-img-top h-100" alt="..."> 
+      </div>
+
+      <div class="col-4 ps-2 pb-2 pe-1">
+          <img src="https://static01.nyt.com/images/2019/07/13/arts/13video/bob-ross-cover-superJumbo-v2.png" 
+          class="card-img-top h-100" alt="..."> 
+      </div>
+
+      <div class="col-4 ps-2 pb-2 pe-1">
+          <img src="https://thumbs.dreamstime.com/b/cute-couple-guinea-pigs-clothes-isolated-white-background-230636848.jpg" 
+          class="card-img-top h-100" alt="..."> 
+      </div>
+
+      <div class="col-4 ps-2 pb-2 pe-1">
+          <img src="https://i0.wp.com/wherecialis.com/wp-content/uploads/2022/03/Adorable-Bunny-Rabbit-Dancing-Delights-the-Internet.jpg" 
+          class="card-img-top h-100" alt="..."> 
+      </div>
+   </div>
+  </div>
+
+<!-- COLUMNA-->
+  <div class="tab-pane fade" id="pills-right" role="tabpanel" aria-labelledby="pills-col-tab">
+    <!-- Post Feed 1-->
+     
+
+    <div class="card container-fluid p-0 mb-5" style="width: 36rem;" id="feed">
+      <div class="card-header row d-flex align-time-center bg-white p-0 my-2 mx-1" >
+          <h3 class="card-title col-6">My first post </h3>
+          <h5 class="col-6 text-muted text-end">01/21</h5>
+      </div>
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM78HLJsIyANIUF1sIBJeqdMB7rgZIrM0AHBRzQKoU1lvYmzXmbDblccDi5szQRJrszOg&usqp=CAU" 
+         class="card-img-top w-100" alt="...">
+     <div class="card-body">
+        <p class="card-text">5 likes</p>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+     </div>
+   </div>
+     
+     <!-- Post Feed 2-->
+
+     <div class="card container-fluid p-0 mb-5" style="width: 36rem;" id="feed"> 
+        <div class="card-header row d-flex align-time-center bg-white p-0 my-2 mx-1" >
+          <h3 class="card-title col-6">My first post </h3>
+          <h5 class="col-6 text-muted text-end">11/14</h5>
+        </div>
+         <img src="https://www.petdarling.com/wp-content/uploads/2020/11/razas-de-perros.jpg" 
+         class="card-img-top w-100" alt="...">
+        <div class="card-body">
+        <p class="card-text">23 likes</p>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+     
+     <!-- Post Feed 3-->
+     <div class="card container-fluid p-0 mb-5" style="width: 36rem;" id="feed"> 
+        <div class="card-header row d-flex align-time-center bg-white p-0 my-2 mx-1" >
+          <h3 class="card-title col-6">My first post </h3>
+          <h5 class="col-6 text-muted text-end">12/05</h5>
+        </div>
+         <img src="https://i.blogs.es/808765/dpoty-puppy-2nd--c--tracy-kirby-the-kennel-club-2/1366_2000.jpg" 
+         class="card-img-top w-100" alt="...">
+        <div class="card-body">
+        <p class="card-text">30 likes</p>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+     </div>
+     
+
+
+
+     <!-- Post Feed 4-->
+     <div class="card container-fluid p-0 mb-5" style="width: 36rem;" id="feed">
+      <div class="card-header row d-flex align-time-center bg-white p-0 my-2 mx-1" >
+          <h3 class="card-title col-6">My first post </h3>
+          <h5 class="col-6 text-muted text-end">10/04</h5>
+      </div>
+         <img src="https://cnnespanol.cnn.com/wp-content/uploads/2021/12/211217114030-01-two-dogs-catching-treats-cnnphotos-restricted-super-tease.jpg?quality=100&strip=info" 
+         class="card-img-top w-100" alt="...">
+     <div class="card-body">
+        <p class="card-text">110 likes</p>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+     </div>
+  </div>
+     
+
+
+
+     <!-- Post Feed 5-->
+     <div class="card container-fluid p-0 mb-5" style="width: 36rem;" id="feed">
+        <div class="card-header row d-flex align-time-center bg-white p-0 my-2 mx-1" >
+          <h3 class="card-title col-6">My first post </h3>
+          <h5 class="col-6 text-muted text-end">12/06</h5>
+        </div>
+         <img src="https://thumbs.dreamstime.com/b/cute-couple-guinea-pigs-clothes-isolated-white-background-230636848.jpg" 
+         class="card-img-top w-100" alt="...">
+        <div class="card-body">
+            <p class="card-text">420 likes</p>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+     </div>
+
+
+     
+
+
+     <!-- Post Feed 6-->
+     <div class="card container-fluid p-0 mb-5" style="width: 36rem;" id="feed">
+      <div class="card-header row d-flex align-time-center bg-white p-0 my-2 mx-1" > 
+          <h3 class="card-title col-6">My first post </h3>
+          <h5 class="col-6 text-muted text-end">12/09</h5>
+          </div>
+         <img src="https://i0.wp.com/wherecialis.com/wp-content/uploads/2022/03/Adorable-Bunny-Rabbit-Dancing-Delights-the-Internet.jpg" 
+         class="card-img-top w-100" alt="...">
+      <div class="card-body">
+        <p class="card-text">69 likes</p>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+      </div>
+    
+    
+    </div>
+ 
+
+</div>
+
+
+
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
